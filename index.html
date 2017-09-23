@@ -7,12 +7,25 @@
   <script src="js/ColorContainer.js"></script>
   <script src="js/ChangeManager.js"></script>
   <script>
-  
+  	 $(document).ready(function(){
+  	     var oColorPicker = new ColorPicker();
+
+  	     var data = {[ 
+
+  	     ]};
+
+     	 oColorPicker.setData(data);
+
+     	 oColorPicker.placeAt($("#colorPickerContainer"));
+
+  	 });
+
   </script>
 </head>
 
 <body>
-<div id="colorPickerContainer">
-</div>
+
+<div id="colorPickerContainer"></div>
+
 </body>
 </html>
